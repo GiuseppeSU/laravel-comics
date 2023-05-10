@@ -1,4 +1,5 @@
-@use "./partials/variables";
+@import '~bootstrap/scss/bootstrap';
+
 
 * {
     margin: 0;
@@ -7,93 +8,76 @@
 }
 
 .container-little {
+    background-color: rgb(2, 130, 249);
     height: 30px;
-    background-color: variables.$color-primary ;
-    display: flex;
-
 
 }
 
 .little-text {
     display: flex;
-    width: 50%;
-    margin: auto;
     justify-content: end;
+    margin-right: 200px;
     color: white;
-    font-size: 9px;
-
 }
-
 
 .little-text p {
-    margin-left: 40px;
-
-
+    margin-left: 50px;
 }
 
-.container {
-    width: 50%;
-    margin: auto;
-}
-
-.navbar {
-
+.my_navbar {
     display: flex;
     align-items: center;
-
+    justify-content: space-around;
     height: 70px;
     margin: 20px 0px;
+}
 
-    .nav-logo img {
-        height: 70px;
-    }
+.my_nav-logo img {
+    height: 70px;
+}
 
 
-    .list {
-        display: flex;
-        list-style: none;
-        margin-left: 50px;
+.list {
+    display: flex;
+    list-style: none;
 
-    }
+}
 
-    .list li {
-        margin: 10px;
-    }
+.item {
+    padding: 43px 10px;
 
-    .search {
-        border-bottom: 3px solid variables.$color-primary;
-        width: 100px;
-        text-align: end;
-        margin-left: 60px;
-        height: 20px;
-    }
+}
 
-    .search i {
-        font-size: 10px;
-        margin-left: 5px;
-    }
+li:hover {
+    color: rgb(2, 130, 249);
+    border-bottom: 5px solid rgb(2, 130, 249);
+    cursor: pointer;
+}
 
-    .item {
-        padding: 43px 10px;
+.list li {
+    margin-left: 30px;
+}
 
-    }
+.search {
+    border-bottom: 3px solid rgb(2, 130, 249);
+    height: 28px;
+    margin-bottom: 15px;
+    width: 150px;
+}
 
-    li:hover {
-        color: variables.$color-primary;
-        border-bottom: 1px solid variables.$color-primary;
-        cursor: pointer;
-    }
+.search p {
+    text-align: end;
 }
 
 .content {
     height: 100px;
-    background-color: variables.$color-secondary;
+    background-color: rgb(28, 28, 28);
     display: flex;
     align-items: center;
 
 
     h1 {
-        color: variables.$color-white;
+        color: #fff;
         width: 70%;
         margin: auto;
 
@@ -102,7 +86,7 @@
 
 
 .container-mid {
-    background-color: variables.$color-primary;
+    background-color: rgb(2, 130, 249);
 
 
 
@@ -128,7 +112,7 @@
 
     .first-item h3 {
         margin-left: 20px;
-        color: variables.$color-white;
+        color: #fff;
 
 
     }
@@ -149,7 +133,7 @@
 
 
     .text {
-        color: variables.$color-white;
+        color: #fff;
         padding-top: 40px;
         margin-bottom: 10px;
         font-size: 13px;
@@ -157,13 +141,13 @@
     }
 
     .mini-text p {
-        color: variables.$color-old-white;
+        color: rgb(136, 149, 149);
         padding: 5px 0px;
 
     }
 
     .mini-text p:hover {
-        color: variables.$color-primary;
+        color: rgb(2, 130, 249);
         cursor: pointer;
 
     }
@@ -195,7 +179,7 @@
     z-index: 999;
     display: flex;
     align-items: center;
-    background-color: variables.$color-secondary;
+    background-color: rgb(28, 28, 28);
     position: relative;
 
 
@@ -214,9 +198,9 @@
 
     .text-footer button {
         padding: 10px;
-        border: 3px solid variables.$color-primary;
-        background-color: variables.$color-secondary;
-        color: variables.$color-white;
+        border: 3px solid rgb(2, 130, 249);
+        background-color: rgb(28, 28, 28);
+        color: #fff;
 
     }
 
@@ -233,7 +217,7 @@
 
 
     .follow h1 {
-        color: variables.$color-primary;
+        color: rgb(2, 130, 249);
         margin-right: 20px;
 
     }
@@ -241,7 +225,7 @@
 
 
 .container-upper {
-    background-color: variables.$color-secondary;
+    background-color: rgb(28, 28, 28);
 
 
 
@@ -255,7 +239,7 @@
 
 
 .container-products {
-    background-color: variables.$color-secondary;
+    background-color: rgb(28, 28, 28);
 
     .products {
         display: flex;
@@ -277,7 +261,7 @@
 
         .box h3 {
             margin-top: 10px;
-            color: variables.$color-white;
+            color: #fff;
         }
 
     }

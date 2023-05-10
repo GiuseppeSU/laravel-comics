@@ -2,16 +2,16 @@
     <div class="container-little">
         <div class="little-text">
             <p>DC POWER VISA</p>
-            <p>ADDITIONAL DC SITE<i class="fa-solid fa-caret-down"></i></p>
+            <p>ADDITIONAL DC SITE<i class="fa-solid fa-caret-down ms-2"></i></p>
         </div>
     </div>
     <div class="container">
-        <div class="navbar">
-            <div class="nav-logo">
+        <div class="my_navbar">
+            <div class="my_nav-logo">
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt=" Dc logo">
             </div>
-            <div class="link-nav">
-                <ul class="list">
+            <div class="my_link-nav">
+                <ul class="list d-flex">
                     <li>Characters</li>
                     <li>Comics</li>
                     <li>Movies</li>
