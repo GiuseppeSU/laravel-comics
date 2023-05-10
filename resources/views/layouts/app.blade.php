@@ -16,12 +16,28 @@
 
 <body>
     @include('partials.header')
-
-
     <main>
-        <div class="container">
-            @yield('content')
+        <div class="container-upper">
+            <img src="{{ Vite::asset('resources/img/dc-comici.jpg') }}" alt="Logo DC">
         </div>
+        <div class="container-products">
+            <div class="products">
+                <div class="card">
+                    @foreach ($fumetti as $fumetto)
+                        <img src="{{ $fumetto['thumb'] }}" alt="Digital comics">
+                        <h3>{{ $fumetto['series'] }}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-mid">
+            <div class="container-items">
+                <div class="first-item">
+                    @endforeach
+
+                </div>
+            </div>
+        </div>
+
     </main>
 
     @include('partials.footer')

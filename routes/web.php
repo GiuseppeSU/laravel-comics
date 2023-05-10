@@ -5,7 +5,10 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('home');
+    $fumetti = config('fumetti');
+
+    return view('home', compact('fumetti'));
+
 
 })->name('home');
 

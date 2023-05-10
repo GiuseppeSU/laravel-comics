@@ -4,13 +4,8 @@
             <p>DC POWER VISA</p>
             <p>ADDITIONAL DC SITE<i class="fa-solid fa-caret-down"></i></p>
         </div>
-
-
-
     </div>
     <div class="container">
-
-
         <div class="navbar">
             <div class="nav-logo">
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt=" Dc logo">
@@ -27,17 +22,11 @@
                     <li>Fans</li>
                     <li>News</li>
                     <li>Shop</li>
-
                 </ul>
             </div>
             <div class="search">
                 <p>Search<i class="fa-solid fa-magnifying-glass"></i></p>
             </div>
         </div>
-
     </div>
-
-
-
-
 </header>
