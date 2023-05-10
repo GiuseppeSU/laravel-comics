@@ -34,21 +34,54 @@
                             </div>
                         </div>
                     @endforeach
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+
+                <button class="btn btn-primary text-white text-center mb-3">Load More</button>
+            </div>
+        </div>
+
+        <div class="my_color2 d-flex justify-content-center align-items-center">
+
+            <div class="container w-75 m-auto">
+                <div class="row ms-5">
+                    <div class="col">
+                        <img class="w-25" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}"
+                            alt="">
+                        <span class="text-white ms-2 my_font">DIGITAL COMICS</span>
+                    </div>
+
+                    <div class="col">
+                        <img class="w-25" src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}"
+                            alt="">
+                        <span class="text-white ms-2 my_font">DC MERCHANDISE</span>
+                    </div>
 
 
+                    <div class="col">
+                        <img class="w-25" src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}"
+                            alt="">
+                        <span class="text-white ms-2 my_font">SUBSCRIPTIONS</span>
+                    </div>
+
+
+                    <div class="col-2">
+                        <img class="w-25" src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}"
+                            alt="">
+                        <span class="text-white ms-2 my_font">COMIC SHOP LOCATION</span>
+                    </div>
+
+                    <div class="col-3">
+                        <img class="w-25 ms-5 mt-2" src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}"
+                            alt="">
+                        <span class="text-white ms-2 my_font">POWER VISA</span>
+                    </div>
                 </div>
             </div>
 
         </div>
 
-        <div class="container-mid">
-            <div class="container-items">
-                <div class="first-item">
-
-
-                </div>
-            </div>
-        </div>
 
 
     </main>

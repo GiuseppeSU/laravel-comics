@@ -85,38 +85,6 @@ li:hover {
 }
 
 
-.container-mid {
-    background-color: rgb(2, 130, 249);
-
-
-
-    .container-items {
-        width: 70%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-    }
-
-    .first-item {
-        display: flex;
-        align-items: center;
-        width: 70%;
-        margin: auto;
-        padding: 40px 30px;
-    }
-
-    .first-item img {
-        height: 60px;
-
-    }
-
-    .first-item h3 {
-        margin-left: 20px;
-        color: #fff;
-
-
-    }
-}
 
 
 .container-footer {
@@ -171,6 +139,16 @@ li:hover {
         left: 50px;
 
     }
+}
+
+.my_color2 {
+    background-color: rgb(2, 130, 249);
+    height: 150px;
+
+}
+
+.my_font {
+    font-size: 10px
 }
 
 
