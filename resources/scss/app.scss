@@ -237,33 +237,8 @@ li:hover {
     }
 }
 
-
-.container-products {
+.my_color {
     background-color: rgb(28, 28, 28);
 
-    .products {
-        display: flex;
-        flex-wrap: wrap;
-        width: 70%;
-        margin: auto;
-        padding: 30px;
-
-        .card {
-            width: calc(100% / 6);
-            text-align: center;
-            margin: 10px 0px;
-        }
-
-        .box img {
-            height: 100px;
-
-        }
-
-        .box h3 {
-            margin-top: 10px;
-            color: #fff;
-        }
-
-    }
 
 }

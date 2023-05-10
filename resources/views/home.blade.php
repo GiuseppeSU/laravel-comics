@@ -21,22 +21,26 @@
         <div class="container-upper">
             <img src="{{ Vite::asset('resources/img/dc-comici.jpg') }}" alt="Logo DC">
         </div>
-        <div class="container d-flex">
-            @foreach ($fumetti as $fumetto)
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <img src="{{ $fumetto['thumb'] }}" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text fs-1  ">{{ $fumetto['series'] }}</p>
+        <div class="my_color">
+            <div class="container">
+                <div class="row  ">
+                    @foreach ($fumetti as $fumetto)
+                        <div class="col-2">
+                            <div class="card h-50 text-center text-light mt-5">
+                                <img src="{{ $fumetto['thumb'] }}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text fs-5 ">{{ $fumetto['series'] }}</p>
+                                </div>
                             </div>
                         </div>
-            @endforeach
-        </div>
+                    @endforeach
 
 
+                </div>
+            </div>
+
         </div>
-        </div>
+
         <div class="container-mid">
             <div class="container-items">
                 <div class="first-item">
