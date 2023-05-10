@@ -22,7 +22,7 @@
             <img src="{{ Vite::asset('resources/img/dc-comici.jpg') }}" alt="Logo DC">
         </div>
         <div class="my_color">
-            <div class="container">
+            <div class="container w-75">
                 <div class="row  ">
                     @foreach ($fumetti as $fumetto)
                         <div class="col-2">
@@ -79,7 +79,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
 
